@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
@@ -8,7 +8,7 @@ const Navbar = () => {
     <Stack
       direction="row"
       alignItems="center"
-      p={2}
+      p={1}
       sx={{
         position: "sticky",
         background: "#000",
@@ -20,9 +20,9 @@ const Navbar = () => {
         <Typography
           color="red"
           style={{
-            paddingLeft: "10px",
+            paddingLeft: { md: "10px" },
             fontWeight: "bold",
-            fontVariant: { xs: "h5", md: "h3" },
+            fontVariant: { xs: "h6", md: "h3" },
           }}
         >
           UTUBE

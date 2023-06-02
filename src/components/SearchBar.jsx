@@ -24,6 +24,8 @@ const SearchBar = () => {
           pl: 2,
           boxShadow: "none",
           mr: { sm: 5 },
+          display: "flex",
+          alignItems: "center",
         }}
       >
         <input
@@ -32,7 +34,7 @@ const SearchBar = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <IconButton type="submit" sx={{ p: "10px", color: "red " }}>
+        <IconButton type="submit" sx={{ p: { md: "10px", xs: "3px" } }}>
           <Search sx={{ color: "gray" }} />
         </IconButton>
       </Paper>
