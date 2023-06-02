@@ -1,6 +1,5 @@
 # YouTube Clone
-  This is a YouTube Clone application built using Material-UI, React.js, and Rapid API. It provides a platform for users to explore, watch, and interact with  
-  videos, channels, and the YouTube community.
+  This is a YouTube Clone application built using Material-UI, React.js, and Rapid API. It provides a platform for users to explore, watch, and interact with  videos, channels.
 
 # Technologies
   1. Material-UI - React components for implementing Material Design.  
